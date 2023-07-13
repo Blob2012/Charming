@@ -24,25 +24,20 @@
 </head>
 <body>
   <div class="circle"></div>
-</body>
-</html>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Page</title>
+  <title>Button to Second Page</title>
 </head>
 <body>
-  <!-- Content of the page goes here -->
+  <button onclick="goToSecondPage()">Go to Second Page</button>
+
+  <script>
+    function goToSecondPage() {
+      window.location.href = "second-page.html";
+    }
+  </script>
 </body>
 </html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Second Page</title>
-</head>
-<body>
-  <h1>This is the Second Page</h1>
-  <p>Welcome to the second page of my website.</p>
-</body>
-</html>
-<a href="second-page.html">Go to Second Page</a>
+
+
